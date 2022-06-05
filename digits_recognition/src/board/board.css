@@ -1,0 +1,41 @@
+.board {
+    width: 589px;
+    height: 589px;
+    background: grey;
+    display: grid;
+    grid-template-columns: repeat(28, 21px);
+    grid-template-rows: repeat(28, 21px);
+    touch-action: none;
+}
+
+.clearButton {
+    width: 589px;
+    height: 48px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.bars {
+    margin-top: 24px;
+}
+
+.bar-digit {
+    display: inline-block;
+    width: 28px;
+    font-size: 24px;
+}
+
+.bar-graph {
+    height: 32px;
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    background: greenyellow;
+}
+
+.processed {
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    font-size: 350pt;
+}

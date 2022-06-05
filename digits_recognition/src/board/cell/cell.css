@@ -1,0 +1,21 @@
+.cell {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: 1px;
+    background: white;
+    touch-action: none;
+}
+
+.cell.selected {
+    background: black;
+}
+
+.cell.grayed33 {
+    background: #aaa;
+}
+
+.cell.grayed66 {
+    background: #555;
+}
+
