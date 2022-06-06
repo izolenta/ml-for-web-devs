@@ -1,4 +1,12 @@
-# Examples to the WebExpo talk
+# ML for Web Devs WebExpo talk
+
+## Links and articles
+
+- [MNIST digits dataset](http://yann.lecun.com/exdb/mnist/)
+- [Car brand logos dataset](https://www.kaggle.com/datasets/volkandl/car-brand-logos)
+- [How to do custom objects detection](https://blog.tensorflow.org/2021/01/custom-object-detection-in-browser.html)
+
+## Examples
 
 ### `snake-training`
 
