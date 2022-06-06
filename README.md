@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Examples to the WebExpo talk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `snake-training`
 
-## Available Scripts
+Training routine for snake game, [brain.js](https://brain.js.org/)
 
-In the project directory, you can run:
+Run `node src/trainingService.js`, it will produce `snake.json` file with the neural network definition 
 
-### `npm start`
+### `snake_game`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Snake, controlled by the neural network.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can either use included `src/service/trainedData.ts` network definition or copy content of `snake.json` produced by `snake_training` into `src/service/trainedData.ts`
 
-### `npm test`
+Run `npm start` to start the game
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `digits_training`
 
-### `npm run build`
+Training routine for handwritten digits recognition, [tensorflow.org/js](https://www.tensorflow.org/js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run `node src/tensorflowTrain.js`, it will produce `tensorflowTrainingData` folder with `model.json` and `weights.bin` files that contain the neural network definition
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `digits recofnition`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Handwritten digits recognition in your browser
 
-### `npm run eject`
+You can either use included `model.json` and `weights.bin` network definition in `public/tf_data` or copy files produced by `digits_training` into `public/tf_data`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run `npm start` to start the demo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `multibox-detection`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Common Objects Detection on photo in your browser (pre-trained tensorflow.js common-object-in-context model). Works in the browser (has no BE)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Run `npm start` to start the demo
 
-## Learn More
+### `video-detection`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Common Objects Detection on video in your browser (pre-trained tensorflow.js common-object-in-context model). Works in the browser (has no BE)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run `npm start` to start the demo
