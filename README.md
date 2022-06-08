@@ -1,5 +1,12 @@
 # ML for Web Devs WebExpo talk
 
+## Live demos
+
+[Handwritten digits recognition](https://digits.techsample.net/)
+[Detect objects on photo](https://objects.techsample.net/)
+[Detect Škoda, VW and Toyota logos on photo](https://logos.techsample.net/)
+
+
 ## Links and articles
 
 - [MNIST digits dataset](http://yann.lecun.com/exdb/mnist/)
